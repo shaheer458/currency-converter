@@ -1,0 +1,29 @@
+{
+  "name": "shaheer50-currency-converter",
+  "version": "1.0.0",
+  "description": "The TypeScript console app is used to convert currencies: the users enter a certain amount of money in one currency and set the currency they want to check the monetary value of.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.2"
+  },
+  "dependencies": {
+    "@types/boxen": "^3.0.1",
+    "@types/chalk-animation": "^1.6.3",
+    "@types/node-fetch": "^2.6.11",
+    "axios": "^1.6.8",
+    "boxen": "^7.1.1",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.17",
+    "publish": "^0.6.0",
+    "shebang-command": "^2.0.0"
+  }
+}
